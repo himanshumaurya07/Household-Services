@@ -1,0 +1,11 @@
+Ë     
+ÛgÇ  ã                   óp   — d dl mZ d dlmZ dZd„ Z e«       Zd dl­ edk(  rej                  dd¬	«       yy)
+é    )ÚFlask)ÚdbNc                  óÄ   — t        t        «      } d| _        d| _        d| j                  d<   t
+        j                  | «       | j                  «       j                  «        | S )NTÚ
+secret_keyzsqlite:///hsp.sqlite3ÚSQLALCHEMY_DATABASE_URI)	r   Ú__name__Údebugr   Úconfigr   Úinit_appÚ
+app_contextÚpush)Úapps    ú.D:\project\Experiment-projects\projects\app.pyÚ
+create_appr      sL   € Ü
+”‹/€CØ€C„IØ!€C„NØ,C€C‡JJÐ(Ñ)Ü‡KKÔØ‡OOÓ×ÑÔà
+€Jó    )Ú*Ú__main__z0.0.0.0i³  )ÚhostÚport)	Úflaskr   Úapplication.databaser   r   r   Úapplication.controllersr   Úrun© r   r   Ú<module>r      s>   ðÝ Ý #à
+€òñ ƒl€ä %à
+ˆzÒØ‡GG €GÕ&ð r   

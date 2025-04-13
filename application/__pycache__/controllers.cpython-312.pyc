@@ -1,0 +1,632 @@
+Ë     ˜ÙBgÉt  ã                   óÖ  — d dl mZmZmZmZmZmZmZmZ d dl mZ	 ddl
+­ d dl
+Z
+d dlmZ d dl
+mZ d dlZ ej"                  d«        e	j$                  d«      d	„ «       Z e	j$                  d
+d
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  ddd
+g¬
+«      d„ «       Z e	j$                  ddd
+g¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d„ «       Z e	j$                  dd
+dg¬
+«      d „ «       Z e	j$                  d!d
+dg¬
+«      d"„ «       Z e	j$                  d#«      d$„ «       Z e	j$                  d%«      d&„ «       Z  e	j$                  d'd
+dg¬
+«      d(„ «       Z! e	j$                  d)d
+dg¬
+«      d*„ «       Z" e	j$                  d+d
+dg¬
+«      d,„ «       Z# e	j$                  d-d
+dg¬
+«      d.„ «       Z$ e	j$                  d/d
+dg¬
+«      d0„ «       Z% e	j$                  d1d
+dg¬
+«      d2„ «       Z& e	j$                  d3dd
+g¬
+«      d4„ «       Z' e	j$                  d5dd
+g¬
+«      d6„ «       Z( e	j$                  d7dd
+g¬
+«      d8„ «       Z) e	j$                  d9«      d:„ «       Z* e	j$                  d;dd
+g¬
+«      d<„ «       Z+ e	j$                  d=dd
+g¬
+«      d>„ «       Z, e	j$                  d?dd
+g¬
+«      d@„ «       Z- e	j$                  dAdd
+g¬
+«      dB„ «       Z. e	j$                  dCdd
+g¬
+«      dD„ «       Z/ e	j$                  dEdg¬
+«      dF„ «       Z0 e	j$                  dGdg¬
+«      dH„ «       Z1 e	j$                  dIdg¬
+«      dJ„ «       Z2 e	j$                  dKdg¬
+«      dL„ «       Z3 e	j$                  dMd
+dg¬
+«      dN„ «       Z4y)Oé    )ÚFlaskÚrender_templateÚredirectÚrequestr   Úurl_forÚflashÚ	send_file)Ú
+current_appé   )Ú*N)ÚdatetimeÚAggÚ/c                  ó   — t        d«      S )Nz
+index.html)r   © ó    ú>h:\IITM-BS\MAD 1 final\Project\code\application\controllers.pyÚindexr   
+   s
+   € ä
+˜<Ó
+(Ð(r   ú/loginÚGETÚPOST)Úmethodsc                  óî  — t         j                  dk(  r×t         j                  j                  d«      } t         j                  j                  d«      }t        j
+                  j
+                  | ¬«      j                  «       }t        j
+                  j
+                  | ¬«      j                  «       }|rb|j                  |k(  r=|j                  dk7  rt        d«       t        d«      S t        d|j                  › «      S t        d	«       t        d«      S |r¬|j                  d
+k(  rt        d«       t        d«      S |j                  |k(  rb|j                  d
+k(  rt        d«       t        d«      S |j                  d
+k(  rt        d«       t        d«      S t        d|j                  › «      S t        d	«       t        d«      S | dk(  r|dk(  r
+t        d«      S t        d«       t        d«      S t        d«      S )Nr   Ú	user_nameÚpwd©ÚusernameÚActivez*Your account has been blocked by the Adminr   ú/customer_dashboard/zincorrect passwordÚBlockedÚPendingz=Your application is pending. Please wait for Admin approval !ÚRejectedz&Your application is rejected by Admin.ú/professional_dashboard/ÚAdminÚ123ú/admin_dashboardzInvalid username or passwordz
+login.html)r   ÚmethodÚformÚgetÚCustomerÚqueryÚ	filter_byÚfirstÚ
+ProfessionalsÚpasswordÚapplication_statusr   r   Úidr   )Úu_namer   Ú
+this_customerÚthis_professionals       r   Úloginr5      s¹  € ä‡~~˜ÓÜ—‘×!Ñ! +Ó.ˆÜl‰l×Ñ˜uÓ%ˆÜ Ÿ™×0Ñ0¸FÐ0ÓC×IÑIÓKˆ
+Ü)×/Ñ/×9Ñ9ÀVÐ9ÓL×RÑRÓTÐá
+Ø×%Ñ%¨Ò,Ø ×3Ñ3°xÒ?ÜÐFÔGÜ# HÓ-Ð-ÜÐ"6°}×7GÑ7GÐ6HÐ IÓJÐJäÐ*Ô+Ü Ó)Ð)á
+Ø ×3Ñ3°yÒ@ÜÐBÔCÜ Ó)Ð)Ø"×+Ñ+¨sÒ2Ø$×7Ñ7¸9ÒDÜÐYÔZÜ# HÓ-Ð-Ø$×7Ñ7¸:ÒEÜÐBÔCÜ# HÓ-Ð-ÜÐ":Ð;L×;OÑ;OÐ:PÐ QÓRÐRäÐ*Ô+Ü Ó)Ð)à
+wÒ
+ 3¨%¢<ÜÐ.Ó/Ð/äÐ0Ô1Ü˜HÓ%Ð%ä
+˜<Ó
+(Ð(r   z/register_customerc                  ót  — t         j                  dk(  rt         j                  d   } t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t        j                  j
+                  | ¬«      j
+                  «       rt        d	«       t        d
+«      S t        | |||||¬
+«      }t        j                  j                  |«       t        j                  j                  «        t        d«       t        d
+«      S t        d
+«      S )Nr   r   r/   ÚfullnameÚaddressÚpincodeÚphone_nor   z&Username already exists! Please login.r   )r   r/   r:   r7   r8   r9   z!Signup successful! please log in!zregister_customer.html)r   r'   r(   r*   r+   r,   r-   r   r   ÚdbÚsessionÚaddÚcommitr   )r   r   Ú	full_namer8   r9   r:   Únew_customers          r   Úregister_customerrA   >   sô   € ä‡~~˜ÓÜ—<‘< 
+Ñ+ˆÜl‰l˜:Ñ&ˆÜ—L‘L Ñ,ˆ	Ü—,‘,˜yÑ)ˆÜ—,‘,˜yÑ)ˆÜ—<‘< 
+Ñ+ˆä
+>‰>×
+#Ñ
+#¨xÐ
+#Ó
+8×
+>Ñ
+>Ô
+@ÜÐ:Ô;Ü˜HÓ%Ð%äØØØØØØô
+
+ˆô 	
+
+‰
+‰|Ô$Ü
+
+‰
+×ÑÔÜ
+Ð1Ô2Ü˜Ó!Ð!ô Ð3Ó
+4Ð4r   z/customer_dashboard/<int:c_id>c                 ó²   — t         j                  j                  | «      }t        j                  j	                  «       }|j
+                  }t
+        d|||¬«      S )NzCustomer_dashboards_home.html)ÚuserÚ
+R_ServicesÚService)r*   r+   r)   ÚServicesÚallÚservice_requestsr   )Úc_idr3   rE   rD   s       r   ÚCustomer_loginrJ   ^   sG   € ä—N‘N×&Ñ& tÓ,€MÜn‰n× Ñ Ó"€GØ×/Ñ/€Jä
+Ð:À=Ð_iÐt{Ô
+}Ð}r   z/edit_cust_info/<int:C_id>c                 óÄ  — t         j                  dk(  rÍt         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t        j                  j
+                  | «      }||_        ||_        ||_        ||_	        ||_
+        t        j                  j                  «        t        d| › «      S y )Nr   r   r7   r8   r9   r:   r   )r   r'   r(   r*   r+   r)   r   r:   r7   r8   r9   r;   r<   r>   r   )ÚC_idr   r?   r8   r9   r:   r3   s          r   ÚEdit_User_InforM   g   s¸   € ä‡~~˜ÒÜ—<‘< 
+Ñ+ˆÜ—L‘L Ñ,ˆ	Ü—,‘,˜yÑ)ˆÜ—,‘,˜yÑ)ˆÜ—<‘< 
+Ñ+ˆä Ÿ™×*Ñ*¨4Ó0ˆ
+à!)ˆ
+ÔØ!)ˆ
+ÔØ!*ˆ
+ÔØ 'ˆ
+ÔØ 'ˆ
+Ôä
+
+‰
+×ÑÔäÐ.¨t¨fÐ5Ó6Ð6ð#  r   z"/looking_for/<int:s_id>/<int:c_id>c                 óœ  — t         j                  dk(  r¹t        j                  j	                  | d¬«      j
+                  t
+        t        j                  «      «      j                  «       }t        j                  j                  |«      }t        j                  j                  | «      }|j                  }t        d||||j                  ¬«      S y )Nr   ÚApproved©Ú
+service_idr0   zCustomer_dashboards_lf.html)r.   rD   rC   Úser_name)r   r'   r.   r+   r,   Úorder_byÚdescÚratingrG   r*   r)   rF   rH   r   Úservice_name)Ús_idrI   Úall_professionalsrC   Úthis_servicerD   s         r   Ú
+looking_forrZ   }   sÔ   € ä‡~~˜ÒÜ)×/Ñ/×9Ñ9ÀTÐ^hÐ9Ói×rÑrÔswô  yF÷  yMñ  yMó  tNó  O÷  Sñ  Só  UÐÜ~‰~×!Ñ! $Ó'ˆÜ—~‘~×)Ñ)¨$Ó/ˆØ×*Ñ*ˆ
+äÐ<ÐN_Ðoyð  CGð  T`÷  Tmñ  Tmô  nð  	nð
+ r   z1/request_service/<int:p_id>/<int:c_id>/<int:s_id>c                 óP  — t         j                  j                  |«      }t        | ||t	        j
+                  «       j
+                  d«      ¬«      }t        j                  j                  |«       t        j                  j                  «        t        d|j                  › d|› «      S )Nú	%B %d, %Y)Úprofessional_idrQ   Ú
+customer_idÚdate_of_requestz
+/looking_for/r   )
+rF   r+   r)   Ú
+Service_Reqr
+   ÚnowÚstrftimer;   r<   r=   r>   r   r1   )Úp_idrI   rW   rY   Ú
+new_requests        r   Úrequest_servicere   ˆ   s|   € ä—>‘>×%Ñ% dÓ+€LÜØØØÜ"Ÿ,™,›.×1Ñ1°+Ó>ô	€Kô ‡JJ‡NN;ÔÜ‡JJ×ÑÔä
+m L§O¡OÐ#4°A°d°VÐ<Ó
+=Ð=r   z-/service_remark/<int:s_request_id>/<int:c_id>c                 ó†  — t         j                  dk(  r®t         j                  d   }t         j                  d   }t        j                  j
+                  | «      }d|_        ||_        ||_        t        j                  «       j                  d«      |_        t        j                  j                  «        t!        d|› «      S y )Nr   rU   ÚremarksÚ	Completedr\   r   )r   r'   r(   r`   r+   r)   Úservice_statusÚservice_ratingÚcustomer_remarksr
+   ra   rb   Údate_of_completionr;   r<   r>   r   )Ús_request_idrI   rU   rg   Úthis_requests        r   Úclose_cust_requestro   —   s™   € ä‡~~˜ÒÜ—‘˜hÑ'ˆÜ—,‘,˜yÑ)ˆä"×(Ñ(×,Ñ,¨\Ó:ˆØ&1ˆÔ#Ø&,ˆÔ#Ø(/ˆÔ%Ü*2¯,©,«.×*AÑ*AÀ+Ó*NˆÔ'Ü
+
+‰
+×ÑÔäÐ.¨t¨fÐ5Ó6Ð6ð  r   z$/customer_search_services/<int:c_id>c                 ó”  — t         j                  dk(  r(t         j                  d   }|dk(  rét         j                  d   j                  «       }t        j
+                  j
+                  t        j                  j                  |› d«      «      j                  «       }|rŸt        j
+                  j                  |j                  d¬«      j                  t        t        j                  «      «      j!                  «       }t#        d||j                  | ¬	«      S |d
+k(  rwt         j                  d   }t        j
+                  j                  |d¬
+«      j                  t        t        j                  «      «      j!                  «       }t#        d|d| ¬	«      S |d
+k(  r¦t         j                  d   }t        j
+                  j
+                  t        j$                  j                  d|› d«      «      j                  d¬«      j                  t        t        j                  «      «      j!                  «       }t#        d|d| ¬	«      S t#        d| ¬«      S )Nr   ú	search-byúservice nameÚ
+search_termÚ%rO   rP   zCustomer_dashboards_search.html)Ú
+professionalsÚbannerrI   r9   )r9   r0   ÚAvailaber8   )r0   )rI   )r   r'   r(   Ú
+capitalizerF   r+   ÚfilterrV   Úliker-   r.   r,   r1   rS   rT   rU   rG   r   r8   )rI   Ú	search_byrs   rY   rX   r9   r8   s          r   Úcustomer_search_servicesr|   §   ss  € ä‡~~˜ÓÜ—L‘L Ñ-ˆ	Ø
+˜Ò
+&Ü!Ÿ,™, }Ñ5×@Ñ@ÓBˆKÜ#Ÿ>™>×0Ñ0´×1FÑ1F×1KÑ1KÈ{ÈmÐ[\ÐL]Ó1^Ó_×eÑeÓgˆLâÜ$1×$7Ñ$7×$AÑ$AÈ|ÏÉÐt~Ð$AÓ$÷  %Iñ  %Iô  JNô  O\÷  Ocñ  Ocó  Jdó  %e÷  %iñ  %ió  %kÐ!Ü&Ð'HÐZkð  wC÷  wPñ  wPð  Y]ô  ^ð  ^à
+˜)Ò
+#ä—l‘l =Ñ1ˆGÜ -× 3Ñ 3× =Ñ =ÈÐeoÐ =Ó p× yÑ yÔz~ô  @M÷  @Tñ  @Tó  {Uó  !V÷  !Zñ  !Zó  !\ÐÜ"Ð#DÐVgÐr|ð  FJô  Kð  
+Kà
+˜)Ò
+#Ü—l‘l =Ñ1ˆGÜ -× 3Ñ 3× :Ñ :¼=×;PÑ;P×;UÑ;UÐXYÐZaÐYbÐbcÐVdÓ;eÓ f× pÑ pð  FPÐ pó  !Q÷  !Zñ  !Zô  [_ô  `m÷  `tñ  `tó  [uó  !v÷  !zñ  !zó  !|ÐÜ"Ð#DÐVgÐr|ð  FJô  Kð  
+Kô Ð<ÀTÔ
+JÐJr   z/cust_summary_dash/<int:c_id>c                 óÎ  — 	 t         j                  j                  | «      }t        j                  j	                  | d¬«      j
+                  «       }t        j                  j
+                  t        j                  | k(  t        j                  j                  ddg«      «      j
+                  «       }t        j                  j	                  | d¬«      j
+                  «       }t        j                  j	                  | d¬«      j
+                  «       }g d¢}||||g}t        j                  d¬	«       t        j                  ||d
+d
+g d¢¬
+«       t        j                  d«       t        j                  |dd¬«       t        j                  d«       t        j                   «        t        j                  d¬	«       t        j"                  ||g d¢¬«       t        j$                  d«       t        j&                  d«       t        j                  d«       t        j                  d«       t        j                   «        t)        d|¬«      S # t*        $ r}t)        d|¬«      cY d }~S d }~ww xY w)NÚ	Requested)r^   ri   ÚClosedrh   r"   ÚAccepted©r~   ÚOngoingrh   r"   ©é   é   ©Úfigsizeú%1.1f%%éZ   ©ÚskyblueÚ
+lightgreenÚOrangeÚsalmon©ÚlabelsÚautopctÚ
+startangleÚcolorsz#Service Requests Status - Pie Chartú
+lower rightÚStatus©ÚlocÚtitleústatic/pie_chart.png©ÚcolorúRequest StatusúNumber of RequestszService Requests Statusústatic/bar_chart.pngzCustomer_dashboard_summary.html)rC   )rC   Úerror)r*   r+   r)   r`   r,   Úcountry   r^   ri   Úin_ÚpltÚfigureÚpier˜   ÚlegendÚsavefigÚcloseÚbarÚxlabelÚylabelr   Ú	Exception)	rI   rC   Úrequested_countÚcompleted_countÚrejected_countÚ
+ongoing_countr   ÚcountsÚes	            r   Úcustomer_summary_dashr²   Â   sÑ  € ð!YÜ~‰~×!Ñ! $Ó'ˆÜ%×+Ñ+×5Ñ5À$ÐWbÐ5Óc×iÑiÓkˆÜ%×+Ñ+×2Ñ2´;×3JÑ3JÈdÑ3RÜ4?×4NÑ4N×4RÑ4RÐT\Ð^iÐSjÓ4kómßmrÑmrÓmtð 	ä$×*Ñ*×4Ñ4ÀÐV`Ð4Óa×gÑgÓiˆÜ#×)Ñ)×3Ñ3ÀÐU_Ð3Ó`×fÑfÓhˆ
+ò BˆØ! -°À.ÐQˆô 	
+‰
+˜6Õ"Ü
+‰˜v¨yÀRÒQ}Õ~Ü
+	‰	Ð7Ô8Ü
+
+‰
+6˜}°HÕ=Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ô 	
+‰
+˜6Õ"Ü
+‰˜Ò&RÕSÜ
+
+‰
+Ð#Ô$Ü
+
+‰
+Ð'Ô(Ü
+	‰	Ð+Ô,Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ô Ð@ÈÔMÐMøä
+ò YÜÐ@ÈÐVWÔXÕXûðYús   ‚I I É	I$É
+IÉI$ÉI$ú/register_professionalc                  ó2  — t         j                  dk(  rÙt         j                  d   } t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d   }t         j                  d	   }t         j                  d
+   }t        j
+                  j
+                  |¬
+«      j                  «       rt        d«       t        d
+«      S t        j
+                  j                  |«      }	|r³|j                  j                  d«      r˜|j                  «       }
+t	        | ||||||
+|	j                  |	j                   |	j"                  ||¬«      }
+t$        j&                  j)                  |
+«       t        d«       t$        j&                  j+                  «        t        d
+«      S t        d«       t        d«      S t        j
+                  j-                  «       }	t/        d|	¬«      S )Nr   r?   Úemailr/   rQ   Ú
+experiencer8   r9   Údocumentr:   r   z'Username already exists ! Please login.r   z.pdf)r7   r   r/   r:   rQ   r¶   Úpdf_docÚpricingÚtime_reqÚservice_descr8   r9   zSignup successful!zfile must be a PDFr³   zregister_professional.html)Úservice)r   r'   r(   Úfilesr.   r+   r,   r-   r   r   rF   r)   ÚfilenameÚendswithÚreadÚ
+service_bprº   r»   r;   r<   r=   r>   rG   r   )r?   r   r   rQ   r¶   r8   r9   Úfiler:   r¼   Ú
+document_dataÚnew_users               r   Úregister_professionalrÅ   ì   sž  € ä‡~~˜ÓÜ—L‘L Ñ-ˆ	Ü—<‘< Ñ(ˆÜl‰l˜:Ñ&ˆÜ—\‘\ ,Ñ/ˆ
+Ü—\‘\ ,Ñ/ˆ
+Ü—,‘,˜yÑ)ˆÜ—,‘,˜yÑ)ˆÜ}‰}˜ZÑ(ˆÜ—<‘< 
+Ñ+ˆä
+×
+Ñ
+×
+(Ñ
+(°HÐ
+(Ó
+=×
+CÑ
+CÔ
+EÜÐ;Ô<Ü˜HÓ%Ð%ä—.‘.×$Ñ$ ZÓ0ˆá
+D—M‘M×*Ñ*¨6Ô2Ø ŸI™I›KˆMÜ$Ø"Ø!ØØ!Ø%Ø%Ø%Ø×*Ñ*Ø ×)Ñ)Ø$×1Ñ1ØØô
+ˆHô 
+J‰JN‰N˜8Ô$ÜÐ&Ô'ÜJ‰J×ÑÔä˜HÓ%Ð%äÐ&Ô'ÜÐ4Ó5Ð5Ün‰n× Ñ Ó"€Gä
+Ð7ÀÔ
+IÐIr   z"/professional_dashboard/<int:p_id>c                 ót  — t         j                  j                  | «      }t        j                  j	                  | d¬«      j
+                  «       }t        j                  j	                  | ¬«      j
+                  t        j                  j                  g d¢«      «      j
+                  «       }t        d|||¬«      S )Nr~   ©r]   ri   )r]   ©r€   r   rh   zprofess_dashboards_home.html)ÚprofessionalrD   Ú
+c_Services)
+r.   r+   r)   r`   r,   rG   ry   ri   r¡   r   )rc   r4   rD   Ú
+a_Servicess       r   Úprofessional_loginrÌ     s°   € ä%×+Ñ+×/Ñ/°Ó5ÐÜ×"Ñ"×,Ñ,¸tÐT_Ð,Ó`×dÑdÓf€JÜ×"Ñ"×,Ñ,¸tÐ,ÓD×KÑKÌK×LfÑLf×LjÑLjò  lNó  MOó  P÷  Tñ  Tó  V€Jä
+Ð9ÐJ[Ðjtð  DNô  Oð  Or   z2/accept_cust_request/<int:s_request_id>/<int:p_id>c                 ó¦   — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d|› «      S )Nr€   r#   ©r`   r+   r)   ri   r;   r<   r>   r   )rm   rc   rn   s      r   Úaccept_cust_requestrÏ   '  sC   € ä×$Ñ$×(Ñ(¨Ó6€LØ",€LÔÜ‡JJ×ÑÔä
+Ð.¨t¨fÐ5Ó
+6Ð6r   z,/reject_cust_request/<int:req_id>/<int:p_id>c                 ó¦   — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d|› «      S )Nr"   r#   rÎ   )Úreq_idrc   rn   s      r   Údelete_cust_requestrÒ   0  sC   € ä×$Ñ$×(Ñ(¨Ó0€LØ",€LÔÜ‡JJ×ÑÔä
+Ð.¨t¨fÐ5Ó
+6Ð6r   z!/professional_review/<int:req_id>c                 óª  — t         j                  dk(  r?t        j                  j	                  | «      }t        j                  j
+                  t        j                  «      j                  t        j                  |j                  k(  «      j                  «       }d}d}|D ]  }|d   €Œ	||d   z
+  }|dz
+  }Œ |dkD  rt        ||z
+  d«      nd}t        j                  j	                  |j                  «      }||_        t         j                  d   }||_        d|_        t         j"                  j%                  «        t'        d|j                  › «      S y )Nr   r   r
+   Úremarkr   r#   ©r   r'   r`   r+   r)   Ú
+with_entitiesrj   ry   r]   rG   Úroundr.   rU   r(   Úprofessional_remarkri   r;   r<   r>   r   ©	rÑ   rn   Ú
+all_ratingsÚtotal_ratingr    rU   Úaverage_ratingr4   rÔ   s	            r   Úprofessional_reviewrÝ   9  sI  € ô ‡~~˜ÓÜ"×(Ñ(×,Ñ,¨VÓ4ˆÜ!×'Ñ'×5Ñ5´k×6PÑ6PÓQ×XÑXÔYd×YtÑYtð  yE÷  yUñ  yUñ  ZUó  V÷  Zñ  Zó  \ˆ
+àˆØˆã!ˆFØa‰yÑ$Ø  q¡	Ñ)Ø˜‘
+‘ð "ð <AÀ1º9œ˜|¨eÑ3°QÔ7È!ˆä)×/Ñ/×3Ñ3°L×4PÑ4PÓQÐØ#1ÐÔ Ü—‘˜hÑ'ˆØ+1ˆÔ(Ø&.ˆÔ#Ü
+
+‰
+×ÑÔäÐ2°<×3OÑ3OÐ2PÐQÓRÐRð)  r   z-/professional_review_from_search/<int:req_id>c                 óª  — t         j                  dk(  r?t        j                  j	                  | «      }t        j                  j
+                  t        j                  «      j                  t        j                  |j                  k(  «      j                  «       }d}d}|D ]  }|d   €Œ	||d   z
+  }|dz
+  }Œ |dkD  rt        ||z
+  d«      nd}t        j                  j	                  |j                  «      }||_        t         j                  d   }||_        d|_        t         j"                  j%                  «        t'        d|j                  › «      S y )Nr   r   r
+   rÔ   r   z/professional_search_services/rÕ   rÙ   s	            r   Úprofessional_review_from_searchrß   S  sI  € ô ‡~~˜ÓÜ"×(Ñ(×,Ñ,¨VÓ4ˆÜ!×'Ñ'×5Ñ5´k×6PÑ6PÓQ×XÑXÔYd×YtÑYtð  yE÷  yUñ  yUñ  ZUó  V÷  Zñ  Zó  \ˆ
+àˆØˆã!ˆFØa‰yÑ$Ø  q¡	Ñ)Ø˜‘
+‘ð "ð <AÀ1º9œ˜|¨eÑ3°QÔ7È!ˆä)×/Ñ/×3Ñ3°L×4PÑ4PÓQÐØ#1ÐÔ Ü—‘˜hÑ'ˆØ+1ˆÔ(Ø&.ˆÔ#Ü
+
+‰
+×ÑÔäÐ8¸×9UÑ9UÐ8VÐWÓXÐXð)  r   z(/professional_search_services/<int:p_id>c           	      ó4  — t         j                  dk(  røt         j                  d   }|dk(  r~t         j                  d   }t        j                  j
+                  | |¬«      j
+                  t        j                  j                  g d¢«      «      j                  «       }t        d|| ¬«      S |d	k(  r¤t         j                  d   }t        j                  j                  t        «      j
+                  t        j                  |k(  t        j                  | k(  t        j                  j                  g d¢«      «      j                  «       }t        d|| ¬«      S |d
+k(  r´t         j                  d   }t        j                  j                  t        «      j
+                  t        j                  | k(  t        j                  j                  g d¢«      t        j                  j!                  d
+|› d
+«      «      j                  «       }t        d|| ¬«      S t        d| ¬«      S )
+Nr   rq   z
+start Daters   )r]   r_   rÈ   zProfess_dashboards_search.html)rÊ   rc   r9   r8   rt   )rc   )r   r'   r(   r`   r+   r,   ry   ri   r¡   rG   r   Újoinr*   r9   r]   r8   rz   )rc   r{   ÚdaterÊ   r9   r8   s         r   Úprofessional_search_servicesrã   m  sã  € ä‡~~˜ÓÜ—L‘L Ñ-ˆ	à
+˜Ò
+$Ü—<‘< 
+Ñ.ˆDÜ$×*Ñ*×4Ñ4ÀtØGKð 5ó 6ç6<±f¼[×=WÑ=W×=[Ñ=[Ò\~Ó=ó  7A÷  BEñ  BEó  BGð 
+ô #Ð#CÐR\ÐeiÔjÐjà
+˜)Ò
+#Ü—l‘l =Ñ1ˆGÜ$×*Ñ*×/Ñ/´Ó9×@Ñ@Ü@H×@PÑ@PÐT[Ñ@[Ü@K×@[Ñ@[Ð_cÑ@cÜ@K×@ZÑ@Z×@^Ñ@^ò  `Bó  ACó>÷ ?B¹c»eð	 
+ô
+ #Ð#CÐR\ÐeiÔjÐjà
+˜)Ò
+#Ü—l‘l =Ñ1ˆGÜ$×*Ñ*×/Ñ/´Ó9×@Ñ@Ü@K×@[Ñ@[Ð_cÑ@cÜ@K×@ZÑ@Z×@^Ñ@^ò  `Có  ADÜ@H×@PÑ@P×@UÑ@UÐXYÐZaÐYbÐbcÐVdÓ@eó>÷ ?B¹c»eð	 
+ô
+ #Ð#CÐR\ÐeiÔjÐjä
+Ð;ÀDÔ
+IÐIr   z/edit_pro_info/<int:p_id>c                 óB  — t         j                  dk(  r
+t        j                  j	                  | «      }t         j
+                  d   |_        t         j
+                  d   |_        t         j
+                  d   |_        t         j
+                  d   |_	        t         j
+                  d   |_
+        t         j
+                  d   |_
+        t         j
+                  d   |_        t         j
+                  d	   |_
+        t        j                  j!                  «        t#        d
+| › «      S y )
+Nr   r7   r:   r   r8   r9   r¹   rº   r»   r#   )r   r'   r.   r+   r)   r(   r7   r:   r   r8   r9   r¹   rº   r»   r;   r<   r>   r   ©rc   r4   s     r   Ú
+edit_pro_inforæ     sÝ   € ä‡~~˜ÓÜ)×/Ñ/×3Ñ3°DÓ9ÐÜ%,§\¡\°*Ñ%=ÐÔ"Ü%,§\¡\°*Ñ%=ÐÔ"Ü%,§\¡\°*Ñ%=ÐÔ"Ü$+§L¡L°Ñ$;ÐÔ!Ü$+§L¡L°Ñ$;ÐÔ!Ü$+§L¡L°Ñ$;ÐÔ!Ü%,§\¡\°*Ñ%=ÐÔ"Ü)0¯©°nÑ)EÐÔ&ä
+
+‰
+×ÑÔÜÐ2°4°&Ð9Ó:Ð:ð  r   z/profes_summary_dash/<int:p_id>c                 óø  — 	 t         j                  j                  | «      }t        j                  j	                  | d¬«      j
+                  «       }t        j                  j
+                  t        j                  | k(  t        j                  j                  ddg«      «      j
+                  «       }t        j                  j	                  | d¬«      j
+                  «       }t        j                  j	                  | d¬«      j
+                  «       }g d¢}||||g}|j                  }|d|z
+  g}	d	d
+g}
+t        j                  d
+¬«      \  }
+}|j                  |	|
+d
+dddg¬«       |j                  d«       t        j                  d|› d«       t        j                   d«       t        j"                  «        t        j$                  d
+¬«       t        j&                  ||g d¢¬«       t        j(                  d«       t        j*                  d«       t        j                  d«       t        j                   d«       t        j"                  «        t-        d|| ¬«      S # t.        $ r}
+t-        d| |
+¬«      cY d }
+~
+S d }
+~
+ww xY w)Nr~   rÇ   r   rh   r€   r"   r   é   zCustomer satisfacionÚ	Remainingrƒ   r†   rˆ   r‰   ÚgoldÚ	lightgrayr   ÚequalzYour current Rating: z starr™   )r‹   rŒ   rŽ   rš   rœ   r   zRequested service Statusrž   z%Professsionals_dashboard_summary.html)ÚProfessionalrc   )rí   rc   rŸ   )r.   r+   r)   r`   r,   r    ry   r]   ri   r¡   rU   r¢   Úsubplotsr¤   Úaxisr˜   r¦   r§   r£   r¨   r©   rª   r   r«   )rc   r4   r¬   r­   r¯   r®   r   r°   rU   Ú
+rating_dataÚlabel_1ÚfigÚaxr±   s                 r   Úprofes_summary_dashrô   Ÿ  s  € ð#AÜ)×/Ñ/×3Ñ3°DÓ9ÐÜ%×+Ñ+×5Ñ5ÀdÐ[fÐ5Óg×mÑmÓoˆÜ%×+Ñ+×2Ñ2´;×3NÑ3NÐRVÑ3VÜ4?×4NÑ4N×4RÑ4RÐT\Ð^iÐSjÓ4kómßmrÑmrÓmtð 	ä#×)Ñ)×3Ñ3ÀDÐYcÐ3Ód×jÑjÓlˆ
+Ü$×*Ñ*×4Ñ4ÀTÐZdÐ4Óe×kÑkÓmˆâAˆØ! -°À.ÐQˆà"×)Ñ)ˆØ˜q 6™zÐ*ˆ
+Ø)¨KÐ8ˆÜ—,‘, vÔ.‰ˆˆRØ
+‰ˆ{ 7°IÈ"ÐV\Ð^iÐUjˆÔkØ
+‰ÔÜ
+	‰	Ð)¨&¨°Ð7Ô8Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ô 	
+‰
+˜6Õ"Ü
+‰˜Ò&IÕJÜ
+
+‰
+Ð#Ô$Ü
+
+‰
+Ð'Ô(Ü
+	‰	Ð,Ô-Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ô ÐFÐVgÐptÔuÐuøä
+ò AäÐFÐVgÐptÐ~ô  Aõ  	AûðAús   ‚II É	I9É I4É.I9É4I9r&   c                  ó†  — t         j                  j                  «       } t        j                  j                  «       }t        j                  j
+                  t        j                  j                  g d¢«      «      j                  t        j                  j                  «       «      j                  «       }t        d| ||¬«      S )N)r!   rO   r"   zAdmin_home.html©ÚservicesÚ	Service_Rru   )rF   r+   rG   r`   r.   ry   r0   r¡   rS   r1   rT   r   rö   s      r   Úadmin_dashboardrù   Ê  sŽ   € ä~‰~×!Ñ!Ó#€HÜ×!Ñ!×%Ñ%Ó'€IÜ!×'Ñ'×.Ñ.Ü×(Ñ(×,Ñ,Ò-PÓQóSßS[ÑS[Ô\i×\lÑ\l×\qÑ\qÓ\sÓSt×uxÑuxÓuzð ä
+Ð,°hÈÐanÔ
+oÐor   z
+/add_servicesc                  ó†  — t         j                  dk(  r®t         j                  d   } t         j                  d   }t         j                  d   }t         j                  d   }t        | |||¬«      }t        j
+                  j
+                  |«       t        j
+                  j                  «        t        d«       t        d«      S y )	Nr   rV   Ú
+base_pricerº   r»   )rV   rÁ   rº   r»   zService added successfullyr&   )
+r   r'   r(   rF   r;   r<   r=   r>   r   r   )rV   rû   rº   r»   Ú
+new_services        r   Úadd_servicesrý   Ó  s˜   € ä‡~~˜ÒÜ—|‘| NÑ3ˆÜ—\‘\ ,Ñ/ˆ
+Ü—<‘< 
+Ñ+ˆÜ—|‘| NÑ3ˆÜØ'Ø#ØØ'ô	
+ˆ
+ô 	
+
+‰
+‰{Ô#Ü
+
+‰
+×ÑÔä
+Ð*Ô+äÐ*Ó+Ð+ð!  r   z/edit_service/<int:id>c                 ó  — t         j                  dk(  r³t        j                  j	                  | «      }t         j
+                  d   |_        t         j
+                  d   |_        t         j
+                  d   |_        t         j
+                  d   |_	        t        j                  j                  «        t        d«       t        d«      S y )Nr   rV   rû   rº   r»   zService updated successfullyr&   )r   r'   rF   r+   r)   r(   rV   rÁ   rº   r»   r;   r<   r>   r   r   ©r1   Ú
+my_services     r   Úedit_servicer  è  s   € ä‡~~˜ÒÜ—^‘^×'Ñ'¨Ó+ˆ
+Ü")§,¡,¨~Ñ">ˆ
+ÔÜ '§¡¨\Ñ :ˆ
+ÔÜ%Ÿl™l¨:Ñ6ˆ
+ÔÜ")§,¡,¨~Ñ">ˆ
+ÔÜ
+
+‰
+×ÑÔÜ
+Ð,Ô-äÐ*Ó+Ð+ð  r   z/delete_service/<int:id>c                 óæ   — t         j                  j                  | «      }t        j                  j
+                  |«       t        j                  j
+                  «        t        d«       t        d«      S )NzService deleted successfullyr&   )	rF   r+   r)   r;   r<   Údeleter>   r   r   rÿ   s     r   Údelete_servicer  ö  sM   € ä—‘×#Ñ# BÓ'€JÜ‡JJ×ÑjÔ!Ü‡JJ×ÑÔÜ	Ð
+(Ô)ä
+Ð&Ó
+'Ð'r   z'/professional_pdf/<int:professional_id>c                 óÊ   — t         j                  j                  | «      }|r8|j                  r,t	        t
+        j                  |j                  «      ddd¬«      S t        d«      S )NFzprofessional_document.pdfzapplication/pdf)Ú
+as_attachmentÚ
+download_nameÚmimetyper&   )r.   r+   r)   r¸   r	   ÚioÚBytesIOr   )r]   rÉ   s     r   Úprofessional_pdfr
+     sY   € ä ×&Ñ&×*Ñ*¨?Ó;€Lá˜×,Ò,ÜÜJ‰J|×+Ñ+Ó,ØØ5Ø&ô	
+ð 	
+ô Ð*Ó+Ð+r   z/delete_professional/<int:id>c                 óÐ   — t         j                  j                  | «      }t        j                  j
+                  |«       t        j                  j
+                  «        t        d«      S )Nr&   )r.   r+   r)   r;   r<   r  r>   r   ©r1   r4   s     r   Údelete_professionalr    sH   € ä%×+Ñ+×/Ñ/°Ó3ÐÜ‡JJ×ÑÐ'Ô(Ü‡JJ×ÑÔä
+Ð&Ó
+'Ð'r   z/approve_professional/<int:id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S )NrO   r&   ©r.   r+   r)   r0   r;   r<   r>   r   r
+  s     r   Úapprove_professionalr    ó>   € ä%×+Ñ+×/Ñ/°Ó3ÐØ+5ÐÔ(Ü‡JJ×ÑÔä
+Ð&Ó
+'Ð'r   z/reject_professional/<int:id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S )Nr"   r&   r  r
+  s     r   Úreject_professionalr  !  r  r   z/Admin_summaryc                  ó  — 	 t         j                  j                  d¬«      j                  «       } t         j                  j	                  t         j
+                  j
+                  ddg«      «      j                  «       }t         j                  j                  d¬«      j                  «       }t         j                  j                  d¬«      j                  «       }t        j                  j                  «       }t        j                  j                  «       }t        j                  j                  «       }g }g }|D ]A  }	|j                  |	j                  «       |j                  t        |	j                  «      «       ŒC g d¢}
+| |||g}
+dd	g}||g}
+t        j                   d
+¬
+«       t        j"                  |
+|
+dd
+g d¢¬«       t        j$                  d«       t        j&                  |
+dd¬«       t        j(                  d«       t        j*                  «        t        j                   d
+¬
+«       t        j,                  |
+|
+g d¢¬«       t        j.                  d«       t        j0                  d«       t        j$                  d«       t        j(                  d«       t        j*                  «        t        j                   d
+¬
+«       t        j,                  ||
+ddg¬«       t        j.                  d«       t        j0                  d«       t        j$                  d«       t        j(                  d«       t        j*                  «        t        j                   d
+¬
+«       t        j,                  ||«       t        j.                  d«       t        j0                  d «       t        j$                  d!«       t        j(                  d"«       t        j*                  «        t3        d#«      S # t4        $ r}t3        d#|¬$«      cY d }~S d }~ww xY w)%Nr~   ©ri   r   rh   r€   r"   r   Ú	Customersr.   rƒ   r†   rˆ   r‰   rŠ   r   zService Request Statusr”   r•   r–   r™   rš   rœ   r   rž   Ú	lightblueÚgreenÚUserszNumber of active userszApplication user trafficzstatic/bar_chart_traffic.pngrF   zNumber of requestszService demandzstatic/bar_chart_demand.pngzAdmin_summary_dashboard.html)rŸ   )r`   r+   r,   r    ry   ri   r¡   r*   r.   rF   rG   ÚappendrV   ÚlenrH   r¢   r£   r¤   r˜   r¥   r¦   r§   r¨   r©   rª   r   r«   )r¬   r­   Ú
+Ongoing_countr®   Úcustomers_countÚprofessionals_countr÷   Úlabels_3Úcounts_3r¼   Úlabels_1Úcounts_1Úlabels_2Úcounts_2r±   s                  r   Ú
+admin_summaryr&  *  sÚ  € ð7JÜ%×+Ñ+×5Ñ5À[Ð5ÓQ×WÑWÓYˆÜ%×+Ñ+×2Ñ2´;×3MÑ3M×3QÑ3QÐS[Ð]hÐRiÓ3jÓk×qÑqÓsˆÜ#×)Ñ)×3Ñ3À:Ð3ÓN×TÑTÓVˆ
+Ü$×*Ñ*×4Ñ4ÀJÐ4ÓO×UÑUÓWˆÜ"Ÿ.™.×.Ñ.Ó0ˆÜ+×1Ñ1×7Ñ7Ó9ÐÜ—>‘>×%Ñ%Ó'ˆØˆØˆãˆGØO‰O˜G×0Ñ0Ô1ØO‰OœC × 8Ñ 8Ó9Õ:ð  ò
+ DˆØ# M°?ÀNÐSˆà Ð1ˆØ#Ð%8Ð9ˆä
+
+‰
+˜6Õ"Ü
+‰ °9Èò  VBõ  	CÜ
+	‰	Ð*Ô+Ü
+
+‰
+8 °hÕ?Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ä
+
+‰
+˜6Õ"Ü
+‰˜(Ò*VÕWÜ
+
+‰
+Ð#Ô$Ü
+
+‰
+Ð'Ô(Ü
+	‰	Ð*Ô+Ü
+
+‰
+Ð*Ô+Ü
+	‰	Œ
+ä
+
+‰
+˜6Õ"Ü
+‰˜(¨;¸Ð*@ÕAÜ
+
+‰
+7ÔÜ
+
+‰
+Ð+Ô,Ü
+	‰	Ð,Ô-Ü
+
+‰
+Ð2Ô3Ü
+	‰	Œ
+ä
+
+‰
+˜6Õ"Ü
+‰˜(Ô#Ü
+
+‰
+:ÔÜ
+
+‰
+Ð'Ô(Ü
+	‰	Ð"Ô#Ü
+
+‰
+Ð1Ô2Ü
+	‰	Œ
+ÜÐ=Ó>Ð>øä
+ò JÜÐ=ÀqÔIÕIûðJús   ‚O"O% Ï%	PÏ.P Ï:PÐ Pú
+/Admin_managec                  ó  — t         j                  j                  d¬«      j                  «       } t        j                  j
+                  t
+        t        j                  «      «      j                  «       }t        d|| ¬«      S )Nr   r  zAdmin_manage_dash.html)ru   ÚRequests)	r`   r+   r,   rG   r.   rS   ÚascrU   r   )Úall_requestsÚall_professionals     r   Úadmin_manager-  f  sa   € ä×$Ñ$×.Ñ.¸hÐ.ÓG×KÑKÓM€LÜ$×*Ñ*×3Ñ3´C¼
+×8LÑ8LÓ4MÓN×RÑRÓTÐÜ
+Ð3ÐEUÐbnÔ
+oÐor   z/Block_customer/<int:c_id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S ©Nr    r'  ©r*   r+   r)   r0   r;   r<   r>   r   ©rI   r3   s     r   ÚBlock_customerr2  m  s9   € ä—N‘N×&Ñ& tÓ,€MØ'0€MÔ$Ü‡JJ×ÑÔÜ
+OÓ
+$Ð$r   z/Unblock_customer/<int:c_id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S )Nr   r'  r0  r1  s     r   ÚUnlock_customerr4  u  s9   € ä—N‘N×&Ñ& tÓ,€MØ'/€MÔ$Ü‡JJ×ÑÔÜ
+OÓ
+$Ð$r   z/Block_professional/<int:p_id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S r/  r  rå   s     r   ÚBlock_professionalr6  }  s=   € ä%×+Ñ+×/Ñ/°Ó5ÐØ+4ÐÔ(Ü‡JJ×ÑÔÜ
+OÓ
+$Ð$r   z /Unblock_professional/<int:p_id>c                 ó    — t         j                  j                  | «      }d|_        t        j
+                  j
+                  «        t        d«      S )NrO   r'  r  rå   s     r   ÚUnlock_professionalr8  …  s=   € ä%×+Ñ+×/Ñ/°Ó5ÐØ+5ÐÔ(Ü‡JJ×ÑÔÜ
+OÓ
+$Ð$r   z/Admin_search_servicesc                  ón  — t         j                  dk(  r—t         j                  d   } | dk(  r¶t         j                  d   j                  «       }t        j
+                  j
+                  t        j                  j                  |› d«      «      j                  ?       }|?rt        j
+                  j                  |j                  ??      j                  ?       }t        d|??      S | d	k(  rqt         j                  d   }t        j
+                  j                  t         ?      j
+                  t         j"                  |k(  ?      j                  ?       }t        d|??      S | d
+k(  rNt         j                  d
+   }t        j
+                  j                  |?
+?      j                  ?       }t        d|??      S t        d?      S )Nr   rq   rr   rs   rt   )rQ   zAdmin_search_dash.html)rø   r9   Ústatusr  )r   r'   r(   rx   rF   r+   ry   rV   rz   r-   r`   r,   r1   rG   r   rá   r*   r9   )r{   rs   rY   Úall_req_servicesr9   r:  s         r   Úadmin_search_servicesr<  ?  s`  ? ä?~?~?ÓÜ?L?L?Ñ-?	Ø
+?Ò
+&Ü%Ÿl?l?=Ñ9?DÑDÓF?
+Ü'Ÿ~?~?4Ñ4?X?5JÑ5J?5OÑ5OÐS^ÐR_Ð_`ÐPaÓ5bÓc?iÑiÓk?ÚÜ'2?'8Ñ'8?'BÑ'BÐP\?P_ÑP_Ð'BÓ'`?'dÑ'dÓ'fÐ$Ü*Ð+CÐQaÔbÐbØ
+?)Ò
+#Ü?l?l?=Ñ1?GÜ*?0Ñ0?5Ñ5?hÓ??FÑFÄx?GWÑGWÐ[bÑGbÓd?hÑhÓjÐÜ"Ð#;ÐIYÔZÐZØ
+?(Ò
+"Ü Ÿ??hÑ/?Ü#.?#4Ñ#4?#>Ñ#>ÐPVÐ#>Ó#W?#[Ñ#[Ó#]Ð Ü&Ð'?ÐM]Ô^Ð^Ü
+Ð3Ó
+4Ð4r   )5Úflaskr   r   r   r   r   r   r	   r
+   ÚappÚmodelsr	  r
+   Úmatplotlib.pyplotÚpyplotr?   Ú
+matplotlibÚuseÚrouter   r5   rA   rJ   rM   rZ   re   ro   r|   r?   rÅ   rÌ   rÏ   rÒ   rÝ   rß   rã   ræ   rô   rù   rý   r  r  r
+  r  r  r  r&  r-  r2  r4  r6  r8  r<  r   r   r   Ú<module>rE     sG  ðß a? aÓ aÝ $Ü Û 	Ý Ý Û Ø ?
+???uÔ ð 
+????3ƒñ)ó ð)ð 
+????8?u?f?oÔ.ñ')ó /ð')ðZ 
+???Ð
+?5??.Ô9ñ5ó :ð5ð> 
+???Ð
++?e?F?^ÔDñ~ó Eð~ð 
+???Ð
+'?%??Ô@ñ7ó Að7ð* 
+???Ð
+/?%À?ÔHñnó Iðnð 
+???Ð
+>ÈÐPUÈÔWñ
+>ó Xð
+>ð 
+???Ð
+:ÀVÈEÀNÔSñ7ó Tð7ð 
+???Ð
+1?EÀ6??ÔKñKó LðKð4 
+???Ð
+*?U?F?OÔDñ"Yó Eð"YðR 
+???Ð
+#?u?V?nÔ=ñ-Jó >ð-Jð` 
+???Ð
+/?%À?ÔHñOó IðOð 
+???Ð
+?Ó@ñ7ó Að7ð 
+???Ð
+9Ó;ñ7ó <ð7ð 
+???Ð
+.??v?ÔGñSó HðSð2 
+???Ð
+:ÀUÈFÀOÔTñYó UðYð2 
+???Ð
+5ÀÀv?ÔOñJó PðJð> 
+???Ð
+&?5?&?/ÔBñ
+;ó Cð
+;ð" 
+???Ð
+,?u?f?oÔFñ$Aó Gð$AðT 
+???Ð
+??v?Ô7ñpó 8ðpð 
+??????V?U?OÔ4ñ,ó 5ð,ð( 
+???Ð
+#?f?U?^Ô<ñ
+,ó =ð
+,ð 
+???Ð
+%??u?~Ô>ñ(ó ?ð(ð 
+???Ð
+4Ó5ñ
+,ó 6ð
+,ð 
+???Ð
+*?V?E?NÔCñ(ó Dð(ð 
+???Ð
++?f?U?^ÔDñ(ó Eð(ð 
+???Ð
+*?V?E?NÔCñ(ó Dð(ð 
+???Ð
+?f?U?^Ô4ñ8Jó 5ð8Jðv 
+??????V?E?NÔ3ñpó 4ðpð 
+???Ð
+'?&?Ô:ñ%ó ;ð%ð 
+???Ð
+)?F?8Ô<ñ%ó =ð%ð 
+???Ð
++?f?XÔ>ñ%ó ?ð%ð 
+???Ð
+-??xÔ@ñ%ó Að%ð 
+???Ð
+#?e?F?^Ô<ñ5ó =ñ5r   
